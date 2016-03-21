@@ -6,44 +6,44 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="torture.css">
 
-    <img src="Header4.svg" alt="header">
+    <img class="header" src="Header5.svg" alt="header" style="width:100%;">
+
 
 </head>
 
 
 <body>
 
-<h1>The Wait: Tortured Asylum Seekers Suffer Through Years-long Delays to Stay in the U.S.</h1>
+<br>
+<br>
 
 <hr class="subHeadline">
-
-<div id="bylines">By Joseph Jaafari, Lisa Thomson, and Noah Caldwell</div>
 
 <br>
 
-
 <div id="text">
-	</p>The process to apply for asylum in the United States is arduous: move, file and wait.</p> 
+	<p class="introduction">A<p/> pplying for asylum in the United States is arduous: move, file and wait. The entire process is supposed to take just 180 days, but due to the high volume of refugees and torture victims applying - and a federal backlog of cases - some asylum seekers can wait up to three and a half years just to get an interview scheduled. After that, there's no guarantee that the application will be accepted.</p> 
 
-	<p>The whole process is supposed to take just 180 days, depending on when someone files their first piece of paperwork with the Department of Justice. But due to the overwhelming number of immigrants fleeing their countries, and a federal backlog of cases, the process has become expensive and can now take up to five years.</p>  
+	<p>The backlog in the federal asylum system is a result of underfunding, understaffing and a severe shortage of facilities: there are only eight offices in the U.S. that schedule asylum interviews. This lack of facilities means asylum seekers might have to travel hundreds of miles for an interview. Worse, the backlog is affecting each office differently, meaning an asylum seeker's wait time could be years longer simply because he or she lives in a certain state. Check out the wait times for the eight offices:</p>
+
+	<iframe class="chart" src="https://charts.datawrapper.de/02XWa/index.html" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="755" height="290"></iframe>
 
 	<p>For those who are escaping their countries after being tortured—either by the government or by cultural figureheads—the multiple-year wait time can be devastating, especially since there is no guarantee their application will be approved. They are seeking protection under the U.N. Convention Against Torture, to which the U.S. is a signatory, but the U.S. has no separate process for these victims. They are thrown into the larger, backlogged pool of all asylum seekers.</p>
  
-	<p>The critical stage of the asylum process is the asylum interview. The interview is scheduled at one of only eight locations around the country with an assigned asylum officer. The officer evaluates your identity, the story you’re presenting, and evidence you have in support of your claim—if you can produce any. And this is the stage, scheduling interviews, where the backlog occurs.</p>  
- 
-	<p>“This isn’t because the asylum officers or the immigration judges aren’t working hard, they’re working super hard, but they’ve got so many cases and they’re understaffed and they’re under-resourced and congress hasn’t funded more employees, ” says Maryellen Fullerton, a law professor at Brooklyn Law School.</p>
- 
-	<p>Fullerton says the backlog is a problem for both the asylum seekers, whose lives end up in limbo, and for the government, which can’t deport asylum seekers who don’t meet the requirements until a decision has been made.</p>
+	</div>
 
+<br>
 
-<hr class="subHeadline">
-
-</div>
+<hr class="calcBreak">
 
 <p id="calculatorHead">How Long Would You Have to Wait?</p>
 <p id="calculatorIntro">The waiting period for asylum seekers to get an interview varies massively depending on where they happen to be living - and the office could end up being hundreds of miles away. How long would you have to wait? And how far would you have to go?</p>
+
+
+<p style="font-style:italic">Type in your zip code to find out:</p>
+
 <div id="asylumCalculator">
-	<p id="prompt">Type your zip code:</p>
+	<!--<p id="prompt">Type your zip code:</p>-->
 	<input id="zipCode" type="number"></input>
 	<button id="calc">Calculate</button>
 	<br>
@@ -55,17 +55,28 @@
   <div id="distance"></div>
 	<div id="map"></div>
 
-	<br>
-
 </div>
-<br>
-<hr class="subHeadline">
 
-<div id="text">
+<hr class="calcBreak">
+
+<br>
+
+	<p>The lack of offices disproportionately hurts asylum seekers in the Midwest, Rocky Mountains, Alaska and Hawaii. To give some perspective, someone living in Wyoming would be sent down to the Houston office, an expensive and cumbersome trip for immigrants often not working legally.</p>
+	 
+
+<img class="infographic" src="Wyoming.svg">
+
+	<p>Why does this matter? The critical stage of the asylum process is the interview. An asylum will officer evaluate your identity, the story you’re presenting, and evidence you have in support of your claim — if you can produce any. But only once you've cleared the backlog can you get in the door.</p> 
+ 
+	<p>“This isn’t because the asylum officers or the immigration judges aren’t working hard, they’re working super hard, but they’ve got so many cases and they’re understaffed and they’re under-resourced and congress hasn’t funded more employees, ” says Maryellen Fullerton, a law professor at Brooklyn Law School.</p>
+ 
+	<p>Fullerton says the backlog is a problem for both the asylum seekers, whose lives end up in limbo, and for the government, which can’t deport asylum seekers who don’t meet the requirements until a decision has been made.</p>
 	
 	<p>But while securing an interview is important, actually making a credible case for yourself in your interview is what’s critical for asylum seekers. The case presented in the interview determines whether or not that 2 - 5 year wait will result in a future in the U.S. or deportation.</p>
  
 	<p>Asylum seekers are alleging that they are technically refugees, and are entitled to the same rights as refugees. But, in order to gain these rights they first need to prove they have a well founded fear of persecution. For torture victims, they must prove that it is “more likely than not” that they will be tortured again if deported. The interview is the chance to state their case for why they have this fear, and leading up to the interview is when they need to assemble all the pieces.</p>
+
+	<img class="infographic" src="Georgia.svg">
  
 	<p>“Gathering evidence from a far away place in a different culture and a different legal system is always hard, and even harder in these circumstances because the opportunity to leave has come in a hurry,” says Fullerton. “When they see opportunity they have to move quickly and it’s hard to have documentary evidence of those kinds of horrible deeds. Whoever does them, governments or other people, tend not to leave written records of them. So it’s hard to get access to that information and present it and to make sure if you do have it you’re able to preserve it throughout your journey,” she said.</p>
  
@@ -79,7 +90,6 @@
 
 
 
-</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
